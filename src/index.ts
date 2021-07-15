@@ -25,7 +25,6 @@ export class PinchZoomPan {
     this._action = 'none'
     this._minZoom = minZoom
     this._maxZoom = maxZoom
-    this._maxZoom = maxZoom
     this._captureWheel = captureWheel
     this._current = { x: 0, y: 0, z: 0, range: 0 }
     this._touch = isTouch()
